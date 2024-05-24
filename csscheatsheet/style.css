@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic Styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6em;
+}
+
+p {
+  background-color: #f4f4f4;
+  color: #555;
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Link Styles */
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+
+/* Container */
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* Button Styles */
+.button {
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: red;
+}
+
+/* Box 1 */
+.box-1 {
+  background-color: #333;
+  color: #fff;
+  border: 5px solid red;
+  border-bottom-width: 10px;
+  border-top-style: dotted;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.box-1 h1 {
+  font-family: Tahoma;
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: underline;
+  letter-spacing: 0.2em;
+  word-spacing: 1em;
+}
+
+/* Box 2 */
+.box-2 {
+  border: 3px dotted #ccc;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Categories */
+.categories {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.categories h2 {
+  text-align: center;
+}
+
+.categories ul {
+  list-style: none;
+  padding: 0;
+}
+
+.categories li {
+  padding-bottom: 6px;
+  border-bottom: 1px dotted #333;
+  list-style-image: url("../Images/check.png");
+}
+
+/* Form Styles */
+.my-form {
+  padding: 20px;
+}
+
+.form-group {
+  padding-bottom: 15px;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input[type="text"],
+.my-form textarea {
+  padding: 8px;
+  width: 100%;
+}
+
+/* Block */
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px solid #ccc;
+  padding: 0;
+}
+
+/* Main Block */
+#main-block {
+  float: left;
+  width: 70%;
+  padding: 15px;
+}
+
+/* Sidebar */
+#sidebar {
+  float: right;
+  width: 30%;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+}
+
+/* P-Box */
+.p-box {
+  width: 800px;
+  height: 500px;
+  border: 1px solid #000;
+  margin-top: 30px;
+  position: relative;
+  background-image: url(../images/bgimage.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.p-box h1 {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+
+.p-box h2 {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+}
+
+/* Fix Me */
+.fix-me {
+  position: fixed;
+  top: 400px;
+}
+
+/* My List */
+.my-list li:first-child {
+  background: red;
+}
+
+.my-list li:last-child {
+  background: blue;
+}
+
+.my-list li:nth-child(5) {
+  background: yellow;
+}
+
+.my-list li:nth-child(even) {
+  background: grey;
+}
