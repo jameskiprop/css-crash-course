@@ -127,11 +127,12 @@ a:active {
 }
 
 /* Main Block */
+
 .main-block {
   float: left;
   width: 70%;
   padding: 15px;
-  position-top: 50px;
+  /* position-top: 50px;  */
 }
 
 /* Sidebar */
