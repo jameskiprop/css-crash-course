@@ -127,10 +127,11 @@ a:active {
 }
 
 /* Main Block */
-#main-block {
+.main-block {
   float: left;
   width: 70%;
   padding: 15px;
+  position-top: 50px;
 }
 
 /* Sidebar */
@@ -139,16 +140,16 @@ a:active {
   width: 30%;
   background-color: #333;
   color: #fff;
-  padding: 15px;
+  padding: 5px;
 }
 
 /* P-Box */
 .p-box {
   width: 800px;
   height: 500px;
-  border: 1px solid #000;
+  border: 1px #333;
   margin-top: 30px;
-  position: relative;
+  position: absolute;
   background-image: url(../images/bgimage.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -156,7 +157,7 @@ a:active {
 
 .p-box h1 {
   position: absolute;
-  top: 100px;
+  top: 300px;
   left: 200px;
 }
 
@@ -168,11 +169,17 @@ a:active {
 
 /* Fix Me */
 .fix-me {
-  position: fixed;
+  position: relative;
   top: 400px;
 }
 
 /* My List */
+.my-list {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 15px;
+}
+
 .my-list li:first-child {
   background: red;
 }
